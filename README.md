@@ -6,7 +6,7 @@ Başlamadan önce bilgisayarınızda aşağıdakilerin kurulu olduğundan emin o
 
 - [Node.js ve npm](https://nodejs.org/)
 - [Docker](https://www.docker.com/)
-- [React.js](https://react.dev/)
+
 ## Kurulum Talimatları
 Projeyi kopyalayın 
 
