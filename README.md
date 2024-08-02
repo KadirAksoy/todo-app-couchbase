@@ -43,6 +43,12 @@ npm run dev
 ```
 Servisler çalışacaktır.
 
+Uygulamaya girmek için aşağıdaki adrese gidin:
+
+```
+http://localhost:5173 
+```
+
 ## Servisler
 
 ### Auth Servis
