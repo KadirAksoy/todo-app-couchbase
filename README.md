@@ -8,7 +8,34 @@ Başlamadan önce bilgisayarınızda aşağıdakilerin kurulu olduğundan emin o
 - [Docker](https://www.docker.com/)
 - [React.js](https://react.dev/)
 ## Kurulum Talimatları
+Projeyi kopyalayın 
 
+```
+git clone https://github.com/KadirAksoy/todo-app-couchbase
+```
+
+Docker dosyasını çalıştırın:
+
+```
+docker compose up
+```
+
+Ardından dosyalara ayrı ayrı girin
+
+```
+cd .\api-gateway\
+cd .\todo-service\
+cd .\auth-service\
+cd .\todo-react\
+```
+
+Her dosyaya girdiğinizde şu komutları çalıştırın:
+```
+npm install
+
+npm run dev
+```
+Servisler çalışacaktır.
 
 ## Servisler
 
