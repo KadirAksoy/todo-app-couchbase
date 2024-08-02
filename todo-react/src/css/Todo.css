@@ -1,0 +1,86 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.todo-input {
+  margin-bottom: 20px;
+}
+
+.todo-input input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.todo-input button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.todo-list,
+.completed-todo-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 500px;
+  height: 300px; /* Fixed height for the lists */
+  overflow-y: auto; /* Add scrollbar for overflow */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.todo-list li,
+.completed-todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-list li span,
+.completed-todo-list li span {
+  flex-grow: 1;
+}
+
+.todo-list li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-width: 300px; /* Adjust the maximum width */
+  width: 100%;
+  max-height: 200px; /* Adjust the maximum height */
+  overflow-y: auto; /* Add scrollbar if content exceeds max height */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+}

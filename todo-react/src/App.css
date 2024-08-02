@@ -1,0 +1,25 @@
+.app-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+.app-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.app-nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.app-nav a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.app-nav a:hover {
+  text-decoration: underline;
+}
