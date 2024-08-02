@@ -20,6 +20,12 @@ Docker dosyasını çalıştırın:
 docker compose up
 ```
 
+Tarayıcı üzerinden aşağıdaki adres ile couchbase database panelini açabiliriz:
+
+```
+http://localhost:8091
+```
+
 Ardından dosyalara ayrı ayrı girin
 
 ```
